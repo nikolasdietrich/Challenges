@@ -1,22 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="ltr" lang="de-DE" class="theme light classic">
 
 <head>
-    <title>Portfolio Nikolas Dietrich</title>
-    <meta charset="UTF-8">
+    <base href="/">
+    <meta charset="utf-8">
+    <title>Startseite</title>
+    <meta name="app-name" content="export_fixed_website" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
+    <link href="a0684b0780c739e9.vendor.ltr.css" rel="stylesheet"
+        integrity="sha512-JwMCpiHdk95MoUTatfaZJwstzeDnWfvWMJiwnSxZfPmgeCe4yvQDQ+ONMQjIy/Ht72r0TmlE+gvZnYRnpdLdVg=="
+        crossorigin="anonymous">
+    <link href="2fcea7aa17f02ed2.ltr.css" rel="stylesheet"
+        integrity="sha512-KgJNKXuv7kgUzgzIoE7R8V5dwwLh8H50VxoHltGSFYWdL259MRtksnJ2vD3QCibiLc76FS2KASZbgQF45tKUPQ=="
+        crossorigin="anonymous">
+    <link href="static_font_4.ltr.css" rel="stylesheet">
+    <link href="84ddcdcd258eb3aa.strings.js" rel="preload" as="script" crossorigin="anonymous"
+        integrity="sha512-tD99teH1c5ApEbZaCHJ7BiHAq4vnWCRsg+YKGYcjcdNH/HPRUYdq/8deeKR99jYMoOEMoLrPZ6XdGc51+TwmJw=="
+        nonce="18d8233f-bed7-4324-a718-e6fba8088ad0">
+    <link href="e550453762e7abaa.de-DE.js" rel="preload" as="script" crossorigin="anonymous"
+        integrity="sha512-h/E8l+Tk++slUGnVsTEm/+nYimuna7vJidfjgKNVmscnr8V4UZ6OBLqFz72y6l3ahkiIpJvC12Z8S3XvMX21jw=="
+        nonce="18d8233f-bed7-4324-a718-e6fba8088ad0">
+    <link href="4d1ece3f71e6c54d.runtime.js" rel="preload" as="script" crossorigin="anonymous"
+        integrity="sha512-A8wDjHVmOoNiToEPSt0/2/8SbA935QeII3+tQDnKwABsx0wm4RcCB+iT3POTRD5XOM4WkD1Iii4G6lmAOzk6hQ=="
+        nonce="18d8233f-bed7-4324-a718-e6fba8088ad0">
+    <link href="3af688e02ca99058.vendor.js" rel="preload" as="script" crossorigin="anonymous"
+        integrity="sha512-U8LxChZLM3iiAaXrCHBsKowwsetxMoJeNXb0DR5hy/BELffY+g5oXF6j7vq/dPstV+ltlgzEFz15MUUzdt0prw=="
+        nonce="18d8233f-bed7-4324-a718-e6fba8088ad0">
+    <link href="b1eeac0bf5be0efc.vendor.js" rel="preload" as="script" crossorigin="anonymous"
+        integrity="sha512-FB/tMpdHWaIiQgor/C4gS69uv8Xj8BHABxurRsSAiUQA/xpJL92B2M91gnlk4N13MXD8XRGHmDjRIYXbfgNvFw=="
+        nonce="18d8233f-bed7-4324-a718-e6fba8088ad0">
+    <link href="70d2691f438a24d4.js" rel="preload" as="script" crossorigin="anonymous"
+        integrity="sha512-v6grIL7T5GDpYFaYAqKgePPNwetW5dwoiGspZXxsJO/DXFmZNJmSKZzAzwX2lVi8CKSoWcExMNSop2Fz8M6PmA=="
+        nonce="18d8233f-bed7-4324-a718-e6fba8088ad0">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta property="og:title" content="Startseite">
+    <meta property="og:type" content="website">
+    <link rel="shortcut icon" href="images/2d0b56e7e51cf11036ad8734bdb67e2d.png">
+    <link rel="icon" href="images/e53c4bd8da5e491d9ab09e7cf0daf874.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="images/725b756a69a7d4c235070e51acd85560.png" sizes="180x180">
+    <script nonce="18d8233f-bed7-4324-a718-e6fba8088ad0">
+        document.addEventListener('contextmenu', (e) => {
+            const isMedia = ['img', 'image', 'video', 'svg', 'picture'].some(
+                tagName => tagName.localeCompare(e.target.tagName, undefined, { sensitivity: 'base' }) === 0,
+            );
+            isMedia && e.preventDefault();
+        });
+    </script>
+    <script nonce="18d8233f-bed7-4324-a718-e6fba8088ad0">
+        const lang = navigator.language ? navigator.language : 'en';
+        window.canva_installFooter = (container) => {
+            if (!(container instanceof HTMLDivElement)) {
+                return;
+            }
+            fetch('_footer?lang=' + encodeURIComponent(lang)).then(response => {
+                if (response.status !== 200) {
+                    return;
+                }
+                response.text().then(footerStr => {
+                    const div = document.createElement('div');
+                    div.innerHTML = footerStr;
+                    for (const child of [...div.children]) {
+                        if (child.tagName.toLowerCase() !== 'script') {
+                            container.append(child);
+                        }
+                    }
+
+                    (() => { !function (e) { "use strict"; const t = document.getElementById("modal_backdrop"), n = document.getElementById("modal"), o = document.getElementById("captcha-form"), c = document.getElementById("report_button"), d = document.getElementById("form_report"), s = document.getElementById("form_cancel"), l = document.getElementById("form_submit_reason"), a = document.getElementById("form_go_back"), r = document.getElementById("form_submit_captcha"), m = document.getElementById("form_close"), i = document.getElementById("form_close_initial"), u = document.getElementById("report_reason_0"), p = document.getElementById("error_message"), _ = document.getElementById("error_message_captcha"), y = new Map; y.set(0, document.getElementById("form_step_terms")), y.set(1, document.getElementById("form_step_report_reason")), y.set(4, document.getElementById("form_step_report_other")); const E = document.getElementById("form_step_report_ip"); E && y.set(5, E), y.set(2, document.getElementById("form_step_captcha")), y.set(3, document.getElementById("form_step_success")); const f = document.getElementById("report_reason_4"), g = document.getElementById("form_close_ip"), h = document.getElementById("form_go_back_ip"), I = document.getElementById("report_reason_other"), k = document.getElementById("form_close_other"), w = document.getElementById("form_go_back_other"); function v() { t.classList.remove("active"), n.classList.remove("active"), c.classList.remove("active"), c.focus() } function B(e) { y.forEach(((t, n) => { n === e ? (t.style.display = "block", L(t)) : t.style.display = "none" })) } let b, C = !1; const T = "NETEASE" === window.C_CAPTCHA_IMPLEMENTATION ? () => b : () => { const e = o.elements.namedItem("g-recaptcha-response"); return null == e ? void 0 : e.value }; t.onclick = v, s.onclick = v, m.onclick = v, i.onclick = v, g && (g.onclick = v), k.onclick = v, c.onclick = function () { y.forEach(((e, t) => { e.style.display = 0 === t ? "block" : "none" })), t.classList.add("active"), n.classList.add("active"), c.classList.add("active"), u.checked = !0, setTimeout((() => { L(y.get(0)) }), 350) }, d.onclick = d.dataset.reportUrl ? function () { const { origin: e, pathname: t } = window.location, n = e + t, o = d.dataset.reportUrl + encodeURIComponent(n); window.open(o) } : () => B(1), l.onclick = () => { null != E && f.checked ? B(5) : I.checked ? B(4) : (B(2), function () { if (C) return; const e = document.createElement("script"); e.src = "NETEASE" === window.C_CAPTCHA_IMPLEMENTATION ? "https://cstaticdun.126.net/load.min.js" : "https://www.google.com/recaptcha/api.js", e.async = !0, e.defer = !0, document.head.appendChild(e), C = !0, e.onload = "NETEASE" === window.C_CAPTCHA_IMPLEMENTATION ? () => { var e; null === (e = window.initNECaptcha) || void 0 === e || e.call(window, { captchaId: window.C_CAPTCHA_KEY, element: "#netease-captcha", protocol: "https", width: "auto", onVerify: (e, t) => { b = t.validate } }) } : () => { } }()) }, a.onclick = () => B(1), h && (h.onclick = () => B(1)), w.onclick = () => B(1), o.addEventListener("submit", (function (e) { e.preventDefault(), p.style.display = "none", _.style.display = "none"; const t = function () { let e = ""; const t = document.getElementsByName("report_reason"); for (let n = 0; n < t.length; n++) { const o = t[n]; o.checked && (e = o.value) } return e }(), n = T(); if (!n) return void (_.style.display = "block"); const o = { reason: t, challenge: n }, c = window.location.origin + window.location.pathname + "/_api/report"; r.classList.add("loading"), fetch(c, { method: "POST", body: JSON.stringify(o), headers: { "Content-Type": "application/json; charset=utf-8" } }).then((e => { r.classList.remove("loading"), e.ok ? B(3) : p.style.display = "block" })) })); const A = new Map, L = e => { const t = A.get(e); null != t && document.removeEventListener("keydown", t); const n = e.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'), o = e, c = n[n.length - 1], d = function (e) { ("Tab" === e.key || 9 === e.keyCode) && (e.shiftKey ? document.activeElement === o && (c.focus(), e.preventDefault()) : document.activeElement === c && (o.focus(), e.preventDefault())) }; A.set(e, d), document.addEventListener("keydown", d), o.focus() }; e.keepFocus = L, Object.defineProperty(e, "__esModule", { value: !0 }) }({}); })();
+                });
+            });
         }
-    </style>
+    </script>
+    <script nonce="18d8233f-bed7-4324-a718-e6fba8088ad0">
+        window.C_CAPTCHA_IMPLEMENTATION = 'RECAPTCHA';
+    </script>
+    <script nonce="18d8233f-bed7-4324-a718-e6fba8088ad0">
+        window.C_CAPTCHA_KEY = '6Ldk59waAAAAAMPqkICbJjfMivZLCGtTpa6Wn6zO';
+    </script>
 </head>
 
 <body>
-
-    <h1>Nikolas Dietrich</h1>
-    <p>Python/C++ developer</p>
-
+    <script
+        nonce="18d8233f-bed7-4324-a718-e6fba8088ad0">document.documentElement.classList.replace('adaptive', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');</script>
+    <div id="root"></div>
+    <script
+        nonce="18d8233f-bed7-4324-a718-e6fba8088ad0">(function () { window['__canva_public_path__'] = ''; window['bootstrap'] = JSON.parse('{"base":{"A?":"B","L":false,"N":false,"E":"747c22dd0b0dd1bd0da0da7a2a1495a2addf40b1","K":1729078295,"F":{"A?":"B"},"G":"CLIENT_FULL","I":"A","O":{"A?":"B"},"M":"/_online","S":true,"W":false,"U":[],"V":[],"g":false,"i":false,"a":{"K":"export_fixed_website","H":{}},"d":{"A":"wss://www.canva.com/_stream","B":{"F":"export_fixed_website"}},"b":{"A?":"H","C":{"a":"WEB"},"D":{"a":"WEB","c":"de-DE"},"E":{},"P":[],"Q":[],"R":false,"S":false}},"page":{"A":{"B":{"A?":"A","A":"TAEXfxtKgiU","B":1},"C":{"A":1366.0,"B":768.0,"C":"D"},"Q":[],"R":[],"P":"de-DE","D":"Startseite","E":"","F":[],"G":{},"Y":{},"V":[],"W":[],"A":[{"A?":"i","a":"PBcw8nCFBgbGLTSK","R":false,"S":false,"U":false,"Q":{},"W":[],"X":[],"H":[],"L":{},"D":{"C":"#ffffff","D":0.0,"F":false,"J":false,"G":false,"H":false},"r":[],"E":[{"A?":"I","A":151.4199135733827,"B":262.58698995900363,"D":248.1214847419733,"C":314.43985709161757,"E":0.0,"F":0.0,"Q":false,"S":false,"P":[],"5":{},"T":{},"W":{},"a":{"B":{"A":{"A":"MAGTuxD9lKk","B":1},"B":{"A":-2.8421709430404007E-14,"B":0.0,"D":844.1338445412553,"C":314.4398570916176,"E":0.0},"E":0.0,"C":{}},"D":0.0,"F":false,"J":false,"G":false,"H":false},"e":[]},{"A?":"I","A":216.7519312333116,"B":537.6595695610024,"D":560.8339141224194,"C":203.77582177175975,"E":0.0,"F":0.0,"Q":false,"S":false,"P":[],"5":{},"T":{},"W":{},"a":{"B":{"A":{"A":"MAGTu-BrYBs","B":1},"B":{"A":-2.8421709430404007E-14,"B":-283.29993041883586,"D":844.1338445412553,"C":314.4398570916176,"E":0.0},"E":0.0,"C":{}},"D":0.0,"F":false,"J":false,"G":false,"H":false},"e":[]}],"I":[]}],"I":[]},"B":[{"A":"YACgEZ1cb1Q","B":0,"C":"Arimo","D":[{"style":"REGULAR","files":[{"url":"fonts/f8f199f09526f79e87644ed227e0f651.woff2","format":"WOFF2","unicodeRanges":[],"sizeBytes":194188},{"url":"fonts/daee28464eba92254cb149feea6599e3.otf","format":"OTF","unicodeRanges":[],"sizeBytes":436180},{"url":"fonts/4ff8a742aa834e35f10ead140b735c45.woff","format":"WOFF","unicodeRanges":[],"sizeBytes":234380}],"subsettedFiles":[],"metadata":{"head":{"unitsPerEm":2048,"yMin":-621,"yMax":2007},"hhea":{"ascender":1854,"descender":-434,"lineGap":67},"os2":{"sTypoAscender":1491,"sTypoDescender":-431,"sTypoLineGap":307,"usWinAscent":1854,"usWinDescent":434,"fsSelection":64}}}],"E":false}],"E":[{"type":"RASTER","id":"MAGTu-BrYBs","version":1,"files":[{"url":"media/dc25f37e748aee66c1746deea47fcac0.png","urlDenied":false,"width":800,"height":298,"watermarked":false,"spritesheet":false,"recoloring":{},"quality":"SCREEN","mimeType":"image/png"}]},{"type":"RASTER","id":"MAGTu-BrYBs","version":1,"files":[{"url":"media/72e72b89672023b4ac095b0ca8d82f37.png","urlDenied":false,"width":1600,"height":596,"watermarked":false,"spritesheet":false,"recoloring":{},"quality":"SCREEN_2X","mimeType":"image/png"}]},{"type":"RASTER","id":"MAGTu-BrYBs","version":1,"files":[{"url":"media/02a721c5210815aef6e175d6b0449b5c.png","urlDenied":false,"width":1857,"height":692,"watermarked":false,"spritesheet":false,"recoloring":{},"quality":"SCREEN_3X","mimeType":"image/png"}]},{"type":"RASTER","id":"MAGTuxD9lKk","version":1,"files":[{"url":"media/dc25f37e748aee66c1746deea47fcac0.png","urlDenied":false,"width":800,"height":298,"watermarked":false,"spritesheet":false,"recoloring":{},"quality":"SCREEN","mimeType":"image/png"}]},{"type":"RASTER","id":"MAGTuxD9lKk","version":1,"files":[{"url":"media/72e72b89672023b4ac095b0ca8d82f37.png","urlDenied":false,"width":1600,"height":596,"watermarked":false,"spritesheet":false,"recoloring":{},"quality":"SCREEN_2X","mimeType":"image/png"}]},{"type":"RASTER","id":"MAGTuxD9lKk","version":1,"files":[{"url":"media/02a721c5210815aef6e175d6b0449b5c.png","urlDenied":false,"width":1857,"height":692,"watermarked":false,"spritesheet":false,"recoloring":{},"quality":"SCREEN_3X","mimeType":"image/png"}]}],"F":[],"G":[],"H":[],"P":{"A?":"A","U":true,"V":false},"K":{},"N":true,"O":true,"Q":true},"ui":{"N":false,"A":true,"B":"A","C":false,"D":false,"K":"A","I":true,"J":false}}'); window['cmsg'] = window['cmsg'] || { locale: "de-DE", strings: {} }; })();</script>
+    <script crossorigin="anonymous" src="84ddcdcd258eb3aa.strings.js"
+        integrity="sha512-tD99teH1c5ApEbZaCHJ7BiHAq4vnWCRsg+YKGYcjcdNH/HPRUYdq/8deeKR99jYMoOEMoLrPZ6XdGc51+TwmJw=="
+        nonce="18d8233f-bed7-4324-a718-e6fba8088ad0"></script>
+    <script crossorigin="anonymous" src="e550453762e7abaa.de-DE.js"
+        integrity="sha512-h/E8l+Tk++slUGnVsTEm/+nYimuna7vJidfjgKNVmscnr8V4UZ6OBLqFz72y6l3ahkiIpJvC12Z8S3XvMX21jw=="
+        nonce="18d8233f-bed7-4324-a718-e6fba8088ad0"></script>
+    <script crossorigin="anonymous" src="4d1ece3f71e6c54d.runtime.js" defer
+        integrity="sha512-A8wDjHVmOoNiToEPSt0/2/8SbA935QeII3+tQDnKwABsx0wm4RcCB+iT3POTRD5XOM4WkD1Iii4G6lmAOzk6hQ=="
+        nonce="18d8233f-bed7-4324-a718-e6fba8088ad0"></script>
+    <script crossorigin="anonymous" src="3af688e02ca99058.vendor.js" defer
+        integrity="sha512-U8LxChZLM3iiAaXrCHBsKowwsetxMoJeNXb0DR5hy/BELffY+g5oXF6j7vq/dPstV+ltlgzEFz15MUUzdt0prw=="
+        nonce="18d8233f-bed7-4324-a718-e6fba8088ad0"></script>
+    <script crossorigin="anonymous" src="b1eeac0bf5be0efc.vendor.js" defer
+        integrity="sha512-FB/tMpdHWaIiQgor/C4gS69uv8Xj8BHABxurRsSAiUQA/xpJL92B2M91gnlk4N13MXD8XRGHmDjRIYXbfgNvFw=="
+        nonce="18d8233f-bed7-4324-a718-e6fba8088ad0"></script>
+    <script crossorigin="anonymous" src="70d2691f438a24d4.js" defer
+        integrity="sha512-v6grIL7T5GDpYFaYAqKgePPNwetW5dwoiGspZXxsJO/DXFmZNJmSKZzAzwX2lVi8CKSoWcExMNSop2Fz8M6PmA=="
+        nonce="18d8233f-bed7-4324-a718-e6fba8088ad0"></script>
 </body>
 
 </html>
