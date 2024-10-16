@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nikolas Dietrich</title>
+    <title>Nikolas Dietrich Portfolio</title>
     <style>
         body {
             display: flex;
@@ -30,19 +30,40 @@
             flex-wrap: wrap;
         }
 
-        .link-images img {
+        .link-images a {
+            position: relative;
             width: 45%;
             max-width: 250px;
-            cursor: pointer;
-            transition: transform 0.3s ease;
         }
 
-        .link-images img:hover {
-            transform: scale(1.05);
+        .link-images img {
+            width: 100%;
+            cursor: pointer;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        /* Second image appears on hover or click */
+        .link-images a .second-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .link-images a:hover .second-image,
+        .link-images a:active .second-image {
+            opacity: 1;
+        }
+
+        .link-images a:hover .first-image,
+        .link-images a:active .first-image {
+            opacity: 0;
         }
 
         @media (max-width: 600px) {
-            .link-images img {
+            .link-images a {
                 width: 80%;
             }
         }
@@ -51,15 +72,17 @@
 
 <body>
     <!-- Main image in the center -->
-    <img src="main_picture.png" alt="Nikolas Dietrich" class="main-image">
+    <img src="main_picture.png.jpg" alt="Main Picture" class="main-image">
 
     <!-- Images below with links -->
     <div class="link-images">
-        <a href="https://example1.com" target="_blank">
-            <img src="c++_logo.png" alt="Link 1">
+        <a href="https://github.com/nikolasdietrich/nikolasdietrich.github.io/tree/master/C%2B%2B" target="_blank">
+            <img src="c++_original.png.jpg" alt="Link 1" class="first-image">
+            <img src="c++_hovered.png.jpg" alt="Link 1 Hover" class="second-image">
         </a>
-        <a href="https://example2.com" target="_blank">
-            <img src="python_logo.jpg" alt="Link 2">
+        <a href="https://github.com/nikolasdietrich/nikolasdietrich.github.io/tree/master/Python" target="_blank">
+            <img src="python_original.png.jpg" alt="Link 2" class="first-image">
+            <img src="python_hovered.png.jpg" alt="Link 2 Hover" class="second-image">
         </a>
     </div>
 </body>
